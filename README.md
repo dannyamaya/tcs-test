@@ -20,7 +20,8 @@ Before you begin, ensure that you have the following:
 
 
 2. Navigate to the project directory:
-
+      
+    ```shell  
     cd tcs-test
 
 3. Initialize the Terraform project:
@@ -36,10 +37,12 @@ Before you begin, ensure that you have the following:
 
 7. Run the Terraform plan command to preview the changes:
 
+    ```shell
     terraform plan
 
 8. If the plan looks satisfactory, apply the changes to create the infrastructure:
 
+    ```shell
     terraform apply
 
 
@@ -48,5 +51,8 @@ Before you begin, ensure that you have the following:
 ## Clean Up
 
 To destroy the resources created by this project and clean up your AWS account, run the following command:
+
+   ```shell
+   terraform destroy
 
 
